@@ -53,10 +53,10 @@ function draw() {
      text("Last Fed : " + lastFed + "PM", 350,35);
    }
    else if(lastFed === 0){
-     text("Last Feed : 12 AM",350,35);
+     text("Last Fed : 12 AM",350,35);
    }
    else{
-     text("Last Feed : " + lastFed + " AM", 350,35);
+     text("Last Fed : " + lastFed + " AM", 350,35);
    }
  
   drawSprites();
